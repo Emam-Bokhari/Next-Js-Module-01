@@ -1,14 +1,14 @@
 import { Fragment } from "react";
 
 export const metadata = {
-  title: "Settings Page",
-  description: "This is our Settings Page",
+  title: "Analytics Page",
+  description: "This is our Analytics Page",
 };
 
-export default function Settings() {
+export default function Analytics() {
   return (
     <Fragment>
-      <h1 className="text-2xl mt-3">Settings Page</h1>
+      <h1 className="text-2xl mt-3">Analytics Page</h1>
       <p className="mt-5">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industrys standard dummy text ever
