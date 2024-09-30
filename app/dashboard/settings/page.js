@@ -1,3 +1,4 @@
+import Button from "@/app/components/Button";
 import { Fragment } from "react";
 
 export const metadata = {
@@ -20,6 +21,7 @@ export default function Settings() {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
+      <Button>Go To Analytics Page</Button>
     </Fragment>
   );
 }
