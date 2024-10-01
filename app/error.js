@@ -15,16 +15,19 @@ export default function Error({ error, reset }) {
 }
 
 
-// folder structure
 /* 
 <RootLayout>
-  <Suspense fallback={<DashboardLoading/>} >
-    <DashboardLayout>
-      <ErrorBoundary fallback={Error} >
-        <Analytics/>
-      </ErrorBoundary>
-    </DashboardLayout>
+  <ErrorBoundary fallback={<Error/>} >
+    <Suspense fallback={<DashboardLoading/>} >
+      <DashboardLayout>
+        <ErrorBoundary fallback={Error} >
+          <Analytics/>
+        </ErrorBoundary>
+      </DashboardLayout>
+    </Suspense>
+  <Suspense fallback={<HeavyLoading/>} >
+    <Heavy/>
   </Suspense>
+  </ErrorBoundary>
 </RootLayout>
 */
-

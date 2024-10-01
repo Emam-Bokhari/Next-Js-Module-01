@@ -25,15 +25,3 @@ export default function Analytics() {
   );
 }
 
-// folder structure
-/* 
-<RootLayout>
-  <Suspense fallback={<DashboardLoading/>} >
-    <DashboardLayout>
-      <ErrorBoundary fallback={Error} >
-        <Analytics/>
-      </ErrorBoundary>
-    </DashboardLayout>
-  </Suspense>
-</RootLayout>
-*/
