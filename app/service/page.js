@@ -2,6 +2,7 @@ import { Fragment, Suspense } from "react";
 import Posts from "../components/posts";
 
 export default function Service() {
+  
   return (
     <Fragment>
       <p>Service Page</p>
