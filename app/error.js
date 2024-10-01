@@ -8,7 +8,7 @@ export default function Error({ error, reset }) {
   }, [error]);
   return (
     <Fragment>
-      <h2>Something went wrong!</h2>
+      <h2>Something went wrong in root boundary!</h2>
       <button onClick={() => reset}>Try again</button>
     </Fragment>
   );

@@ -9,6 +9,7 @@ import CustomLink from "./components/CustomLink";
 // };
 
 export default function RootLayout({ children }) {
+  // throw new Error("This is global error")
   return (
     <html lang="en">
       <body
