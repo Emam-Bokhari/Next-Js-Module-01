@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 
 export default function Heavy() {
-  throw new Error("Error occurred in Heavy page")
+  // throw new Error("Error occurred in Heavy page")
   return (
     <Fragment>
       <p>Heavy Page</p>

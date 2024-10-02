@@ -6,7 +6,7 @@ export const metadata = {
 };
 
 export default function Analytics() {
-  throw new Error("Error occurred in analytics page");
+  // throw new Error("Error occurred in analytics page");
   return (
     <Fragment>
       <h1 className="text-2xl mt-3">Analytics Page</h1>
