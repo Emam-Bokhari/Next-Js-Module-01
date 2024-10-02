@@ -23,6 +23,9 @@ export default function RootLayout({ children }) {
               <CustomLink path="/service">Service</CustomLink>
             </li>
             <li>
+              <CustomLink path="/blogs">Blogs</CustomLink>
+            </li>
+            <li>
               <CustomLink path="/about">About Us</CustomLink>
             </li>
             <li>
